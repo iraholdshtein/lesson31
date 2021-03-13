@@ -1,0 +1,71 @@
+.conteiner {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+     width: 1000px; ;
+     height: 300px;
+     text-align:center;
+}
+
+.subtitle{
+    font-family: poppins;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    color: #303030;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.title{
+    font-size: 50px;
+    color: #303030;
+    opacity: 1;
+    font-weight: 900;
+    opacity: 1;
+}
+.slide{
+    margin-bottom: 100px;
+}
+.foto{
+    margin-right: 0;
+}
+
+.slick-prev{
+    background-image: url("/images/Layer\ 101.png");
+    outline: none;
+    border-radius: 50%;
+    color:transparent;
+    width: 100px;
+    height: 100px;
+    margin-top: 140px;
+    float: right;
+    transform:translateX(-50%);
+    opacity: 0.7;
+}
+
+.slick-next{
+    position: absolute;
+    background-image: url("/images/Layer\ 10\ copy.png");
+    outline: none;
+    border-radius: 50%;
+    color:transparent;
+    width: 100px;
+    height: 100px;
+    margin-top: -250px;
+    float: left;
+    transform:translateX(-50%) ;
+    margin-left: 100px;
+}
+
+.slick-track{
+    width: 1000px;
+    transform: translate3d(-460px, 0px, 0px);
+}
+.slick-cloned{
+    width: 400px;   
+}
